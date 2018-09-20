@@ -2,7 +2,7 @@ import ConfigParser as cp, sys
 from pyspark.sql import SparkSession
 
 props = cp.RawConfigParser()
-props.read('resources/application.properties')
+props.read('PySparkDemo/resources/application.properties')
 env = sys.argv[1]
 topN = int(sys.argv[2])
 
