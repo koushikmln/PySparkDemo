@@ -1,4 +1,4 @@
-import configparser as cp, sys
+import ConfigParser as cp, sys
 from pyspark.sql import SparkSession
 
 props = cp.RawConfigParser()
